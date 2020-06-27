@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haseeb,s calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="main1">
+            <div class="main2">
+                <div>
+                <input type="text" id="screen" class="sc">
+                <input type="text" id="re" class="rc">
+                </div>
+                <div class="cal-border">
+                    <div class="rectangle">
+                        <div>
+                            <button onclick="c()" class="clear">C</button>
+                        </div>
+                        <div class="num">
+                            <div class="one">
+                                <button onclick="keyword('7')" class="btn">7</button>
+                                <button onclick="keyword('8')" class="btn">8</button>
+                                <button onclick="keyword('9')" class="btn">9</button>
+                                <button onclick="keyword('*')" class="btn">x</button>
+                            </div>
+
+                            <div class="two">
+                                <button onclick="keyword('4')" class="btn">4</button>
+                                <button onclick="keyword('5')" class="btn">5</button>
+                                <button onclick="keyword('6')" class="btn">6</button>
+                                <button onclick="keyword('-')" class="btn">-</button>
+                            </div>
+                        
+                            <div class="three">
+                                <button onclick="keyword('1')" class="btn">1</button>
+                                <button onclick="keyword('2')" class="btn">2</button>
+                                <button onclick="keyword('3')" class="btn">3</button>
+                                <button onclick="keyword('+')" class="btn">+</button>
+                            </div>
+
+                            <div class="three">
+                                <button onclick="keyword('0')" class="btn">0</button>
+                                <button onclick="keyword('00')" class="btn">00</button>
+                                <button onclick="keyword('.')" class="btn"><strong>.</strong></button>
+                                <button onclick="result()" class="btn">=</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ybuttons">
+                        <div class="four">
+                            <button onclick="keyword('/')" class="btn">/</button>
+                            <button onclick="keyword('%')" class="btn">%</button>
+                            <button onclick="cancel()"      class="btn">ce</button>
+                        </div>
+                        <div>
+                            <button onclick="keyword('(')" class="btn">(</button>
+                            <button onclick="keyword(')')" class="btn">)</button>
+                            <button onclick="square('^')"      class="btn">^</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h4 class="intro">HASEEB'S CLACULATOR <BR> DEVELOPED AND DESIGN BY <br> HASEEB ALAM RAFIQ</h4>
+        </div>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

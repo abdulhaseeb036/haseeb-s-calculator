@@ -1,0 +1,505 @@
+/* AUTHOR : HASEEB ALAM RAFIQ */
+@media only screen and (min-width: 1000px){
+html,body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+ /* THIS WILL ONLY BODY */
+body {
+    height: 100%;
+    margin: 0px;
+    background-color: #000;
+}
+.main{
+    width: 60%;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.main1{
+    width: 90%;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #000;
+}
+.rectangle{
+    width: 75%;
+}
+.ybuttons { 
+width: 50%;
+}
+.num {
+    width: 90%;      
+}
+
+.sc {
+    width: 100%;
+    height:30px;
+    margin-bottom: 15px;
+    color: #000;
+    font-weight: bolder;
+    font-size: larger;
+    margin-bottom: 0px;
+    border: none;
+    text-align: right;
+}
+.rc {
+    width: 100%;
+    height:30px;
+    margin-bottom: 15px;
+    color: #000;
+    font-weight: bolder;
+    font-size: larger;
+    border:none;
+    text-align: right;
+}
+.clear {
+    background-color: #000;
+    width: 80px;
+    border: none;
+    color: #fff;
+    margin: 5px;
+    margin-right:0 auto;
+    border: blue solid;
+    border-radius: 20%;
+    cursor: pointer;
+}
+.btn{
+    background-color: #000;
+    color: #fff;
+    border: none;
+    width: 80px;
+    margin: 3px;
+    border: blue solid;
+    font-weight: bolder;
+    border-radius: 20%;
+    cursor: pointer;
+}
+.intro {
+    text-align: center;
+    color: #fff;
+}
+}
+       
+       /* AUTHOR : HASEEB ALAM RAFIQ */
+@media only screen and (max-width: 999px) and (min-width: 720px) {
+html,body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* THIS WILL ONLY BODY */
+body {
+    height: 100%;
+    margin: 0px;
+    background-color: #000;
+}
+.main{
+    width: 90%;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.main1{
+    width: 90%;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: black;
+}
+.rectangle{
+    width: 75%;
+}  
+.ybuttons {
+    width: 70%;  
+}
+.num {
+    width: 90%;
+    
+}
+
+.sc {
+    width: 100%;
+    height:30px;
+    margin-bottom: 0px;
+    border: none;
+    color: #000;
+    font-weight: bolder;
+    font-size: larger;
+    border:none;
+    text-align: right;
+}
+.rc {
+    width: 100%;
+    height:30px;
+    margin-bottom: 15px;
+    color: #000;
+    font-weight: bolder;
+    font-size: larger;
+    border:none;
+    text-align: right;
+}
+.clear {
+    background-color: #000;
+    border: none;
+    color: #fff;
+    margin: 3px;
+    border: blue solid;
+    width: 80px;
+    border-radius: 20%;
+    cursor: pointer;       
+}
+.btn{
+    background-color: #000;
+    color: #fff;
+    border: none;
+    width: 80px;
+    margin: 3px;
+    font-weight: bolder;
+    border: blue solid;
+    border-radius: 20%;
+    cursor: pointer;
+}
+   .intro {
+    text-align: center;
+    color: #fff;
+}
+}
+@media only screen and (max-width: 719px) and (min-width: 600px) {
+html,body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* THIS WILL ONLY BODY */
+body {
+    height: 100%;
+    margin: 0px;
+    background-color: #000;
+}
+.main{
+    width: 95%;
+    margin: 0 auto;
+    padding: 1px;
+}
+
+.main1{
+    width: 95%;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: black;
+}
+.rectangle{
+    width: 75%;           
+}
+.ybuttons {
+    width: 70%;
+}
+.num {
+    width: 90%;
+    
+}
+
+.sc {
+    width: 100%;
+    height:30px;
+    margin-bottom: 0px;
+    border: none;
+    color: #000;
+    font-weight: bolder;
+    font-size: larger;
+    border:none;
+    text-align: right;
+}
+.rc {
+    width: 100%;
+    height:30px;
+    margin-bottom: 15px;
+    color: #000;
+    font-weight: bolder;
+    font-size: larger;
+    border:none;
+    text-align: right;
+}
+.clear {
+ background-color: #000;
+ border: none;
+ color: #fff;
+ margin: 3px;
+ width: 80px;
+ border: blue solid;
+ border-radius: 20%;
+ cursor: pointer;
+}
+.btn {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    width: 80px;
+    margin: 3px;
+    font-weight: bolder;
+    border: blue solid;
+    border-radius: 20%;
+    cursor: pointer;
+}
+.intro {
+    text-align: center;
+    color: #fff;
+}
+}
+    
+@media only screen and (max-width: 599px) and (min-width: 450px) {
+html,body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+            
+
+body {
+    height: 100%;
+    margin: 0px;
+    background-color: #000;
+}
+.main{
+    width: 99%;
+    margin: 0 auto;
+    padding: 1px;
+}
+
+.main1{
+    width: 90%;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #000;
+}
+.rectangle{
+    width: 98%;
+}
+.ybuttons {
+    width:95%;
+ 
+}
+.num {
+    width: 95%;
+    
+}
+
+.sc {
+    width: 100%;
+    height:30px;
+    margin-bottom: 0px;
+    border: none;
+    color: #000;
+    font-weight: bolder;
+    font-size: larger;
+    border:none;
+    text-align: right;
+}
+.rc {
+    width: 100%;
+    height:30px;
+    margin-bottom: 15px;
+    color: #000;
+    font-weight: bolder;
+    font-size: larger;
+    border:none;
+    text-align: right;
+}
+.clear {
+    background-color: #000;
+    border: none;
+    color: #fff;
+    margin: 3px;
+    border: blue solid;
+    width: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.btn{
+    background-color: #000;
+    color: #fff;
+    border: none;
+    width: 40px;
+    margin: 3px;
+    font-weight: bolder;
+    border: blue solid;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.intro {
+    text-align: center;
+    color: #fff;
+}
+}
+    
+@media only screen and (max-width: 449px) and (min-width: 350px) {
+html,body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+            
+
+body {
+    height: 100%;
+    margin: 0px;
+    background-color: #000;
+}
+.main{
+    width: 99%;
+    margin: 0 auto;
+    padding: 1px;
+}
+
+.main1{
+    width: 90%;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #000;
+}
+.rectangle{
+    width: 98%;
+}
+.ybuttons {
+    width:95%;     
+}
+.num {
+    width: 95%;     
+}
+
+.sc {
+    width: 100%;
+    height:30px;
+    margin-bottom: 0px;
+    border: none;
+    color: #000;
+    font-weight: bolder;
+    font-size: larger;
+    border:none;
+    text-align: right;
+}
+.rc {
+    width: 100%;
+    height:30px;
+    margin-bottom: 15px;
+    color: #000;
+    font-weight: bolder;
+    font-size: larger;
+    border:none;
+    text-align: right;
+}
+.clear {
+    background-color: #000;
+    border: none;
+    color: #fff;
+    margin: 3px;
+    width: 50px;
+    border: #0000ff solid;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.btn{
+    background-color: #000;
+    color: #fff;
+    border: none;
+    width: 50px;
+    margin: 3px;
+    font-weight: bolder;
+    border: blue solid;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.intro {
+    text-align: center;
+    color: #fff;
+}
+}
+    
+@media only screen and (max-width: 349px) and (min-width: 250px) {
+html,body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+            
+
+body {
+    height: 100%;
+    margin: 0px;
+    background-color: #000;
+}
+.main{
+    width: 99%;
+    margin: 0 auto;
+    padding: 1px;
+}
+
+.main1{
+    width: 90%;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #000;
+}
+.rectangle{
+    width: 98%;
+}
+.ybuttons {
+    width:97%;        
+}
+.num {
+    width: 95%;       
+}
+
+.sc {
+    width: 100%;
+    height:30px;
+    margin-bottom: 0px;
+    border: none;
+    color: #000;
+    font-weight: bolder;
+    font-size: larger;
+    border:none;
+    text-align: right;
+}
+.rc {
+    width: 100%;
+    height:30px;
+    margin-bottom: 15px;
+    color: #000;
+    font-weight: bolder;
+    font-size: larger;
+    border:none;
+    text-align: right;
+}
+.clear {
+    background-color: #000;
+    border: none;
+    color: #fff;
+    margin: 3px;
+    width: 50px;
+    border: blue solid;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.btn{
+    background-color: #000;
+    color: #fff;
+    border: none;
+    width: 50px;
+    margin: 3px;
+    font-weight: bolder;
+    border: blue solid;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.intro {
+    text-align: center;
+    color: #fff;
+}
+
+}
