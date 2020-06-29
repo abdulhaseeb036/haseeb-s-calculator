@@ -5,25 +5,35 @@ function keyword(num){
 }
 
 // clear 
-function c(){
+function c(num){
     var screen = document.getElementById("screen");
-     screen.value = "";   
+    screen.value = ""; 
+ 
+}
+//ans clear
+function ans(){
+    var screen = document.getElementById("screen");
+    rc.value = "";
 }
 
-// cancel 
-function cancel(){
-    var screen = document.getElementById("screen").value;
-    document.getElementById("screen").value = screen.substring(0 , screen.length-1);
-}
 
 //result
 function result(){
     var screen = document.getElementById("screen");
-    re.value= eval(screen.value);
+    rc.value= eval(screen.value);
+
 }
+
 //square function
 function square(sq){
     var screen = document.getElementById("screen").value;
     document.getElementById("screen").value *=  document.getElementById("screen").value;
     screen.value= eval(screen.value);
+}
+
+//back 2
+function back(){
+    var screen= document.getElementById("screen").value;
+    document.getElementById("screen").value= screen.slice(0 , -1);
+    
 }

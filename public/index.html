@@ -13,13 +13,13 @@
         <div class="main1">
             <div class="main2">
                 <div>
-                <input type="text" id="screen" class="sc">
-                <input type="text" id="re" class="rc">
+                <input type="text" id="screen" class="sc" placeholder="0">
+                <input type="text" id="rc"  class="rc" >
                 </div>
                 <div class="cal-border">
                     <div class="rectangle">
                         <div>
-                            <button onclick="c()" class="clear">C</button>
+                            <button onclick="c() ; ans()"  class="clear">C</button>
                         </div>
                         <div class="num">
                             <div class="one">
@@ -47,7 +47,7 @@
                                 <button onclick="keyword('0')" class="btn">0</button>
                                 <button onclick="keyword('00')" class="btn">00</button>
                                 <button onclick="keyword('.')" class="btn"><strong>.</strong></button>
-                                <button onclick="result()" class="btn">=</button>
+                                <button onclick="result()"  class="btn">=</button>
                             </div>
                         </div>
                     </div>
@@ -55,7 +55,7 @@
                         <div class="four">
                             <button onclick="keyword('/')" class="btn">/</button>
                             <button onclick="keyword('%')" class="btn">%</button>
-                            <button onclick="cancel()"      class="btn">ce</button>
+                            <button onclick="back()"      class="btn">ce</button>
                         </div>
                         <div>
                             <button onclick="keyword('(')" class="btn">(</button>
@@ -65,7 +65,7 @@
                     </div>
                 </div>
             </div>
-            <h4 class="intro">HASEEB'S CLACULATOR <BR> DEVELOPED AND DESIGN BY <br> HASEEB ALAM RAFIQ</h4>
+            <h4 class="intro">HASEEB'S CALCULATOR <BR> DEVELOPED AND DESIGN BY <br> HASEEB ALAM RAFIQ</h4>
         </div>
     </div>
 
